@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AFUTECH Electrical Services. Electrical services at No.1 Shagari Phase I. Call or WhatsApp 08141125232.">
+<title>AFUTECH Electrical Services | Powering Your World</title>
+<style>
+:root{--navy:#081a2c;--blue:#0878d1;--cyan:#21c5df;--ink:#142438;--muted:#64748b;--light:#f3f7fb;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6}a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{background:rgba(8,26,44,.97);color:white;position:sticky;top:0;z-index:10;border-bottom:1px solid #ffffff20}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;letter-spacing:.8px;font-size:1.12rem;display:flex;align-items:center;gap:10px}.brand img{width:42px;height:42px;object-fit:cover;border-radius:50%;border:1px solid #c5a45b}.brand span{color:var(--cyan)}nav{display:flex;gap:25px;align-items:center;font-size:.93rem}nav a:hover{color:var(--cyan)}.nav-cta,.btn{display:inline-block;background:var(--blue);color:white;padding:12px 19px;border-radius:7px;font-weight:700}.nav-cta:hover,.btn:hover{background:#0565b2}.menu{display:none;background:none;border:1px solid #ffffff70;color:white;padding:8px 12px;border-radius:6px;font-size:1.1rem}
+.hero{background:linear-gradient(110deg,rgba(5,20,36,.96),rgba(7,45,76,.86)),radial-gradient(circle at 80% 30%,#0878d1,transparent 40%);color:white;padding:105px 0 100px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}.eyebrow{color:var(--cyan);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:.8rem}.hero h1{font-size:clamp(2.5rem,6vw,4.7rem);line-height:1.06;margin:16px 0 20px;max-width:720px}.hero p{font-size:1.1rem;color:#d5e3ef;max-width:590px}.hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}.btn.secondary{background:transparent;border:1px solid #ffffff80}.bolt{font-size:12rem;text-align:center;color:var(--cyan);filter:drop-shadow(0 0 30px #0a8bcf66);line-height:1}
+section{padding:78px 0}.section-head{text-align:center;max-width:680px;margin:0 auto 42px}.section-head .eyebrow{color:var(--blue)}h2{font-size:clamp(1.9rem,4vw,2.7rem);line-height:1.15;margin:10px 0 14px}.section-head p,.muted{color:var(--muted)}.services{background:var(--light)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border:1px solid #e5edf5;border-radius:12px;padding:27px;box-shadow:0 8px 25px #0a25400a}.icon{width:48px;height:48px;border-radius:10px;background:#e5f5ff;color:var(--blue);display:grid;place-items:center;font-size:1.5rem;margin-bottom:17px}.card h3{margin:0 0 8px}.card p{margin:0;color:var(--muted);font-size:.95rem}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about-panel{background:var(--navy);color:white;border-radius:14px;padding:38px}.about-panel p{color:#c8d7e5}.ticks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.ticks span:before{content:"✓";color:var(--cyan);font-weight:bold;margin-right:8px}
+.why{background:var(--navy);color:white}.why .section-head p{color:#c8d7e5}.why .card{background:#102b45;border-color:#25425c;color:white}.why .card p{color:#c8d7e5}.why .icon{background:#183d5c;color:var(--cyan)}
+.cta{background:linear-gradient(110deg,#0878d1,#07518d);color:white;text-align:center;padding:65px 20px}.cta p{color:#e0f0fc}.cta .btn{background:white;color:#07518d;margin-top:12px}
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px}.contact-item{margin:20px 0}.contact-item b{display:block}.contact-box{background:var(--light);padding:30px;border-radius:12px}.contact-box label{display:block;font-weight:700;margin:13px 0 6px}.contact-box input,.contact-box textarea{width:100%;padding:13px;border:1px solid #d3deea;border-radius:7px;font:inherit;background:white}.contact-box textarea{min-height:110px;resize:vertical}.contact-box button{border:0;cursor:pointer;font:inherit;margin-top:15px}
+.contact-item a{color:var(--blue);font-weight:700;overflow-wrap:anywhere}.contact-item a:hover{text-decoration:underline}
+footer{background:#051321;color:#c8d7e5;padding:28px 0;text-align:center;font-size:.9rem}footer strong{color:white}
+@media(max-width:800px){.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.bolt{display:none}.cards{grid-template-columns:repeat(2,1fr)}nav{display:none;position:absolute;top:76px;left:0;right:0;background:var(--navy);padding:20px;flex-direction:column;align-items:flex-start}.menu{display:block}nav.open{display:flex}}
+@media(max-width:560px){.hero{padding:75px 0}.cards{grid-template-columns:1fr}.ticks{grid-template-columns:1fr 1fr}section{padding:60px 0}.nav-cta{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><img src="afutech-logo.jpg" alt="AFUTECH logo">AFU<span>TECH</span> ELECTRICAL</a>
+<button class="menu" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+<nav id="navLinks"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#why">Why Choose Us</a><a href="#contact">Contact</a></nav>
+<a class="nav-cta" href="#contact">Get a Quote</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="eyebrow">Professional Electrical Solutions</div><h1>Powering Your World. Safely.</h1><p>Reliable electrical services for homes, businesses and projects. From installations to repairs and maintenance, AFUTECH is ready to help keep your power working.</p><div class="hero-actions"><a class="btn" href="#contact">Request a Service</a><a class="btn secondary" href="#services">Explore Services</a></div></div>
+<div class="bolt" aria-hidden="true">ϟ</div>
+</div></section>
+<section id="about"><div class="wrap about-grid">
+<div><div class="eyebrow">Who We Are</div><h2>Electrical work you can count on.</h2><p class="muted">AFUTECH ELECTRICAL SERVICES is focused on delivering dependable electrical solutions with attention to quality, safety and customer satisfaction.</p><p class="muted">Whether you need a new installation, troubleshooting or ongoing maintenance, our goal is to make your project straightforward from first contact to completion.</p></div>
+<div class="about-panel"><div class="eyebrow">Our Commitment</div><h2>Safety first. Quality always.</h2><p>We believe good electrical work should be safe, neat and built to last. We listen to your needs and work towards practical solutions for your space and budget.</p><div class="ticks"><span>Safety-conscious</span><span>Reliable service</span><span>Quality workmanship</span><span>Customer-focused</span></div></div>
+</div></section>
+<section class="services" id="services"><div class="wrap"><div class="section-head"><div class="eyebrow">What We Do</div><h2>Our Electrical Services</h2><p>Practical electrical solutions for residential and commercial needs.</p></div>
+<div class="cards">
+<article class="card"><div class="icon">⌁</div><h3>Electrical Installation</h3><p>Electrical wiring, fittings and installation for new and existing buildings.</p></article>
+<article class="card"><div class="icon">⚡</div><h3>Repairs & Troubleshooting</h3><p>Identifying electrical faults and carrying out repairs to restore safe operation.</p></article>
+<article class="card"><div class="icon">🛠</div><h3>Maintenance</h3><p>Routine checks and maintenance to help keep electrical systems in good condition.</p></article>
+<article class="card"><div class="icon">☀</div><h3>Solar Power Systems</h3><p>Solar power solutions to support dependable energy for your property.</p></article>
+<article class="card"><div class="icon">▣</div><h3>Inverter Solutions</h3><p>Inverter and backup power installation to help manage power interruptions.</p></article>
+<article class="card"><div class="icon">⌖</div><h3>CCTV Installation</h3><p>Security camera installation to help monitor homes, offices and business premises.</p></article>
+</div><p class="muted" style="text-align:center;margin-top:22px;font-size:.85rem">Service list is a starter draft. Remove or change any service AFUTECH does not provide.</p>
+</div></section>
+<section class="why" id="why"><div class="wrap"><div class="section-head"><div class="eyebrow">The AFUTECH Difference</div><h2>Why Choose Us?</h2><p>We aim to make every service experience clear, professional and dependable.</p></div><div class="cards">
+<div class="card"><div class="icon">✓</div><h3>Quality Work</h3><p>Careful workmanship and attention to the details that matter.</p></div>
+<div class="card"><div class="icon">♧</div><h3>Safety Mindset</h3><p>Safety is an important part of every electrical job.</p></div>
+<div class="card"><div class="icon">♡</div><h3>Customer Care</h3><p>Clear communication and solutions shaped around your needs.</p></div>
+</div></div></section>
+<section class="cta"><div class="wrap"><h2>Need a trusted electrical service?</h2><p>Tell us what you need. Let's discuss the right solution for your project.</p><a class="btn" href="#contact">Contact AFUTECH</a></div></section>
+<section id="contact"><div class="wrap"><div class="section-head"><div class="eyebrow">Get In Touch</div><h2>Let's talk about your project.</h2><p>Contact AFUTECH ELECTRICAL SERVICES to make an enquiry or request a quote.</p></div>
+<div class="contact-grid"><div><h3>Contact Information</h3><div class="contact-item"><b>Phone / WhatsApp</b><a href="https://wa.me/2348141125232">08141125232</a></div><div class="contact-item"><b>Location</b><span class="muted">No. 1, Shagari Phase I</span></div><div class="contact-item"><b>Email</b><a href="mailto:afuafutecheelectricalservice@gmail.com">afuafutecheelectricalservice@gmail.com</a></div><p class="muted">Call or WhatsApp us to discuss your electrical service needs.</p></div>
+<form class="contact-box" id="contactForm"><h3>Send an Enquiry</h3><label for="name">Your name</label><input id="name" required placeholder="Enter your name"><label for="phone">Phone number</label><input id="phone" required placeholder="Enter your phone number"><label for="message">How can we help?</label><textarea id="message" required placeholder="Describe the electrical service you need"></textarea><button class="btn" type="submit">Prepare WhatsApp Enquiry</button><p class="muted" id="formNote" aria-live="polite" style="font-size:.82rem">Submit this form to send your enquiry to AFUTECH on WhatsApp.</p></form>
+</div></div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> <strong>AFUTECH ELECTRICAL SERVICES</strong>. All rights reserved.</div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn'),nav=document.getElementById('navLinks');
+menuBtn.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');}));
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('contactForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const businessNumber='2348141125232';
+ if(!businessNumber){document.getElementById('formNote').textContent='WhatsApp number is not configured. Please contact AFUTECH by phone.';return;}
+ const text=`Hello AFUTECH, my name is ${document.getElementById('name').value}. My phone number is ${document.getElementById('phone').value}. ${document.getElementById('message').value}`;
+ window.open(`https://wa.me/${businessNumber}?text=${encodeURIComponent(text)}`,'_blank','noopener');
+});
+</script>
+</body>
+</html>
